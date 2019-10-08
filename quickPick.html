@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quick Pick</title>
+    <link type="text/css" rel="stylesheet" href="quickPick.css">
+</head>
+<body>
+    <h1>Quick Pick</h1>
+    <main>
+        <form>
+            Enter five numbers (1-48) (Separate each by a space):
+            <input type="text" id="five" name="five"><br \>
+            Enter one "lucky ball" number (1-18):
+            <input type="text" id="lucky" name="lucky"><br \>
+            <input type="submit" id="submit" value="Submit" onclick="parse()">
+        </form>
+        <p id="result"></p>
+    </main>
+</body>
+<script type="text/javascript" src="quickPick.js"></script>
+</html>

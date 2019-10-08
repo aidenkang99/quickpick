@@ -1,0 +1,13 @@
+html{
+    background-color: #1B842D;
+}
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 150px;
+    line-height: 50px;
+}
